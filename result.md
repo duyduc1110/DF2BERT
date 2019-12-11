@@ -1,3 +1,27 @@
+# Method
+## Bert
+Fine-tuned bert sequence classification `bert-base-uncased`. Build from Pytorch Modules and `transformer` package. Using last hidden layer of [CLS] token with Dropout(0.1) to connect with Dense(2). Training configuration:
+* Max sequence length: 512
+* Learning rate: 1e-5
+* Epochs: 3
+* Batch size: 6
+
+## Bert+CNN
+Extract last hidden layer for each token as embedding layer. Then connect it to 3 convolution neural network layers of 768 filter and kernel sizes of [2, 3, 4].  After that is a max pooling layer for each CNN layer with their kernel size, then concatenate them. Training configuration:
+* Max sequence length: 512
+* Learning rate: 1e-5
+* Epochs: 10
+* Batch size: 5
+
+## Bert + Feature Extraction
+Not yet T.T
+
+## ML (Naive Bayer, KNN)
+Tfidf vectors, 10 epochs per model
+
+# Result
+I will update it later bro
+
 Bert eb512 1e-5 e4:
 loss, 0.2487, 0.1256, 0.0675, 0.0479
 acc, 0.9609, 0.9865, 0.9911, 0.9886

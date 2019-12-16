@@ -1,3 +1,7 @@
 
 bert_2e5_e4.pth
 bert_eb1024_1e5_e4.pth
+bert_cnn64-3.model
+glove.6B.300d.txt
+*.model
+*.sd

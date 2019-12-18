@@ -10,30 +10,30 @@ why : since 80% of information is wide spread on social media and it is in the t
 
 value: Organizations/Enterprises can know customer's behavior about their products/companies so that they can have fast responses
 
-motivation ? (I just wanna go to Japan for trip XDDDDDDDDDDDDDD)
+motivation ? combine old-fashion way (CNN) and new way (BERT)
 
 ## Basic Paper Related Work
 
 + Movie review topic paper before(sentiment analysis)
++ Short text
 + Social media topic(text-mining) 
 
-## Basic Methods:
+## Basic Methods: (Bonz)
 
-#### Experiment
+#### Experiment: (Bonz)
 
-* TFIDF + 6 ML
-
-* WordEmbedding(GloVe) + 6ML
+* TFIDF + 6ML
 
 * WE + CNN/RNN
 
-
 * BERT-base(fine-tuning)
 
-* BERT-base WE + 2 Dense (core)
+* BERT-base + CNN 
 
-* BERT-base WE + CNN (core)
+* LLR-BERT (main focus)
+
 #### Result 
+
 Which is the best way on testing data? (don't have it now lol!!!)
 
 #### Discussion

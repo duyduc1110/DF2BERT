@@ -20,9 +20,15 @@ motivation ? combine old-fashion way (CNN) and new way (BERT)
 
 ## Basic Methods: (Bonz)
 
-#### Experiment: (Bonz)
+#### Baseline: (Weber)
+* TFIDF + 6ML   
 
-* TFIDF + 6ML
+* Keras embedding + textCNN/ RNN   
+
+* Keras embedding + LSTM   
+
+
+#### Experiment: (Bonz)
 
 * WE + CNN/RNN
 

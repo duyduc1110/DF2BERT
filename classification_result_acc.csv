@@ -1,0 +1,25 @@
+Models,Result acc scores,file
+Bernoulli NB,0.616328257,Reader Emotion
+Multinomial NB,0.527072758,Reader Emotion
+Svm (linear),0.746615905,Reader Emotion
+Logistic Regression,0.703257191,Reader Emotion
+Random Forest,0.761632826,Reader Emotion
+kNN,0.630076142,Reader Emotion
+Decision Tree,0.679145516,Reader Emotion
+XG Boost,0.58248731,Reader Emotion
+Bernoulli NB,0.770419426,PTT movie
+Multinomial NB,0.816777042,PTT movie
+Svm (linear),0.860927152,PTT movie
+Logistic Regression,0.85209713,PTT movie
+Random Forest,0.750551876,PTT movie
+kNN,0.735099338,PTT movie
+Decision Tree,0.710816777,PTT movie
+XG Boost,0.821192053,PTT movie
+Bernoulli NB,0.8494,Imdb
+Multinomial NB,0.8682,Imdb
+Svm (linear),0.9016,Imdb
+Logistic Regression,0.8994,Imdb
+Random Forest,0.7618,Imdb
+kNN,0.7704,Imdb
+Decision Tree,0.7294,Imdb
+XG Boost,0.7984,Imdb

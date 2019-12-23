@@ -18,11 +18,17 @@ motivation ? combine old-fashion way (CNN) and new way (BERT)
 + Short text
 + Social media topic(text-mining) 
 
-## Basic Methods: (Bonz)
+## Basic Methods: 
+
+#### Baseline: (Weber)
+* TFIDF + 6ML   
+
+* Keras embedding + textCNN/ RNN   
+
+* Keras embedding + LSTM   
+
 
 #### Experiment: (Bonz)
-
-* TFIDF + 6ML
 
 * WE + CNN/RNN
 
